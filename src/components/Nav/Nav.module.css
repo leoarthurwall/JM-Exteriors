@@ -1,11 +1,43 @@
 .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    width: 100%;
-    height: auto;
-    z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  z-index: 10;
 
-    position: fixed;
+  position: fixed;
+  background-color: navy;
 }
+.logo {
+  color: white;
+  margin: 0;
+  font-size: 40px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+  color: white;
+}
+
+.contactList {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 10px;
+    color: white;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 10px;
+    color: white;
+}
+
+

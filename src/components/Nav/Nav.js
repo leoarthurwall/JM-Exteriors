@@ -11,11 +11,11 @@ const Nav = () => {
         <li className={styles.item}>Services</li>
         <li className={styles.item}>Contact</li>
       </ul>
-      <ul className={styles.contactList}>
+      {/* <ul className={styles.contactList}>
         <li className={styles.contact}><span className={styles.navSpan}>Email:</span>Email: jakemayexteriors@gmail.com</li>
         <li className={styles.contact}><span className={styles.navSpan}>Phone:</span> 07946430774 </li>
 
-      </ul>
+      </ul> */}
     </nav>
   );
 };

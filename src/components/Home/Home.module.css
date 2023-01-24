@@ -13,6 +13,12 @@
   background-size: cover;
 }
 
+.headerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .title {
   color: white;
   font-weight: 700;

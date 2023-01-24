@@ -23,13 +23,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
 }
-
 .image {
   height: 100%;
   width: 100%;
   object-fit: cover;
   position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+.image:hover {
+  transform: scale(1.05);
 }
 .itemHeader {
   position: absolute;

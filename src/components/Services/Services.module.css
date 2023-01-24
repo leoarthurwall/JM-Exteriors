@@ -1,9 +1,10 @@
 .container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
 }
 .gridContainer {
   display: grid;
@@ -13,10 +14,23 @@
 }
 
 .gridItem {
-    width: 400px;
-    height: 400px;
-    background-color: aliceblue;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  width: 400px;
+  height: 400px;
+  background-color: navy;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.itemHeader {
+  position: absolute;
+  color: white;
+  font-weight: 500;
 }

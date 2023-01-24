@@ -9,12 +9,13 @@ const About = () => {
         JM Exteriors Ltd specialise in the installation of quality PVCu,
         aluminium and timber double glazed windows, doors & conservatories. We
         also supply and fit fascias and soffits. We have many satiffied
-        customers across the Isle of Wight. <br/> With over 10 years of professional
-        experience we started to supply quality windows and doors. A small
-        family business offering a specialist glazing service in the Isle of
-        Wight. Service and quality have built the business through reputation
-        for competitive prices and reliability.
+        customers across the Isle of Wight. <br /> With over 10 years of
+        professional experience we started to supply quality windows and doors.
+        A small family business offering a specialist glazing service in the
+        Isle of Wight. Service and quality have built the business through
+        reputation for competitive prices and reliability.
       </p>
+      <h2 className={styles.header}>Services</h2>
     </div>
   );
 };

@@ -4,12 +4,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
 }
 .gridContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
   width: 800px;
+  position: absolute;
+  top: -50px;
 }
 
 .gridItem {

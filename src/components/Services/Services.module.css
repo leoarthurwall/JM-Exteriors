@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  width: 800px;
+}
+
+.gridItem {
+    width: 400px;
+    height: 400px;
+    background-color: aliceblue;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}

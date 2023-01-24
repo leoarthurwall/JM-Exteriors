@@ -5,7 +5,7 @@ const Services = () => {
    const ServiceImage = [
         {
             header: "Windows",
-            bgImage: "",
+            bgImage: "../../public/images/window.jpeg",
         },
         {
             header: "Doors",
@@ -31,12 +31,14 @@ const Services = () => {
 
   return (
     <section className={styles.container}>
-
       <div className={styles.gridContainer}>
-        <div className={styles.gridItem}>
-            <h2 className={styles.itemHeader}></h2>
+        {ServiceImage.map((service, i) => {
+        <img src={service.bgImage} alt="hello" className={styles.gridItem}>
+            <h2 className={styles.itemHeader}>{service.header}</h2>
         
-        </div>
+        </img >
+
+        })}
         <div className={styles.gridItem}>IMG</div>
         <div className={styles.gridItem}>IMG</div>
         <ul className={styles.gridItem}>

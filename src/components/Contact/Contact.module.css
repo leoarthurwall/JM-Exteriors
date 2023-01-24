@@ -21,4 +21,8 @@
     font-weight: 500;
     color: grey;
     text-align: center;
+    margin:10px;
   }
+  .span {
+    font-weight: 700;
+}

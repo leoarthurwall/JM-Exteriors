@@ -1,0 +1,31 @@
+.container {
+    width: 100%;
+    height: autp;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+ 
+  .right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .logo {
+
+  }
+  .span {
+    font-weight: 700;
+  }
+  .ul {
+    font-size: 18px;
+    font-weight: 700;
+    color: grey;
+    text-align: center;
+    list-style-type: none;
+    line-height: 25px;
+  }
+  .list {
+    font-size: 18px;
+    font-weight: 400;
+  }

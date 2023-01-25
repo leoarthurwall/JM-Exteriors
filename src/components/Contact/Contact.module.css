@@ -24,18 +24,4 @@
   margin: 10px;
   list-style-type: none;
 }
-.span {
-  font-weight: 700;
-}
-.ul {
-  font-size: 18px;
-  font-weight: 700;
-  color: grey;
-  text-align: center;
-  list-style-type: none;
-  line-height: 25px;
-}
-.list {
-  font-size: 18px;
-  font-weight: 400;
-}
+

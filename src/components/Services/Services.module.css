@@ -51,7 +51,10 @@
 }
 .imageTextWrapper:hover {
   background-color: rgba(0,0,0,0.7);
- 
+
+}
+.imageTextWrapper:hover .itemText{
+  visibility: visible;
 }
 .itemHeader {
   color: white;
@@ -62,4 +65,7 @@
   color: white;
   font-weight: 400;
   font-size: 20px;
+  transition: all 0.2s;
+
+  visibility: hidden;
 }

@@ -40,14 +40,19 @@
   position: absolute;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   text-align: center;
   height: 100%;
   width: 100%;
   padding: 30px;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.2);
+  transition: all 0.3s ease-in-out;
 
 }
-
+.imageTextWrapper:hover {
+  background-color: rgba(0,0,0,0.7);
+ 
+}
 .itemHeader {
   color: white;
   font-weight: 400;

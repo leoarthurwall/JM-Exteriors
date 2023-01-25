@@ -4,16 +4,22 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <div className={styles.container}>
-      <h2 className={styles.header}>Welcome to JM Exteriors</h2>
+      <h2 className={styles.header}>About us</h2>
       <p className={styles.para}>
-        JM Exteriors Ltd specialise in the installation of quality PVCu,
-        aluminium and timber double glazed windows, doors & conservatories. We
-        also supply and fit fascias and soffits. We have many satiffied
-        customers across the Isle of Wight. <br /> With over 10 years of
-        professional experience we started to supply quality windows and doors.
-        A small family business offering a specialist glazing service in the
-        Isle of Wight. Service and quality have built the business through
-        reputation for competitive prices and reliability.
+        Welcome to JM Exteriors, your local experts in window fitting on the
+        Isle of Wight. We are a family-owned business with over 10 years of
+        experience in the industry, providing high-quality products and
+        professional installation services for our customers. Our mission is to
+        enhance the beauty and energy efficiency of your home, while providing
+        exceptional customer service.
+      </p>
+      <p className={styles.para}>
+        As the owner of JM Exteriors, I take great pride in the work we do. I
+        started this business because I have a passion for home improvement and
+        enjoy helping people improve their living spaces. I have 10 years of
+        experience in the window fitting industry, and I am a certified
+        professional. I am dedicated to providing our customers
+        with the highest level of service and quality workmanship.
       </p>
       <h2 className={styles.header}>Services</h2>
     </div>

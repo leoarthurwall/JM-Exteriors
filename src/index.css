@@ -1,9 +1,9 @@
 body {
   margin: 0;
-  font-family: sans-serif;
+  font-family: neue-haas-grotesk-display, Helvetica, Roboto, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: aliceblue;
+  background-color: #e9f5f9;
 
 }
 * {

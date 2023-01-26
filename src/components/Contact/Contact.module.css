@@ -12,13 +12,13 @@
 
 .header {
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 300;
   color: navy;
 }
 
 .para {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 300;
   color: grey;
   text-align: center;
   margin: 10px;

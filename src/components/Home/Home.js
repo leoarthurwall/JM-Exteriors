@@ -7,6 +7,8 @@ const Home = () => {
       <div className={styles.headerWrapper}>
         <h1 className={styles.title}> JM Exteriors</h1>
         <h3 className={styles.subHeading}>Glazier & Exertior Professional</h3>
+        <h3 className={styles.islandText}>Isle of Wight</h3>
+
       </div>
     </section>
   );

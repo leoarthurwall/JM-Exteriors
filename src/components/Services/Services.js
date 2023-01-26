@@ -15,7 +15,7 @@ const Services = () => {
     },
     {
       header: "Conservatories",
-      bgImage: "images/conservatory-2.jpeg",
+      bgImage: "images/conservatory.jpeg",
       text: "Our conservatories are designed to provide an elegant and functional extension of your home. We offer a range of styles and materials to choose from, and our team will work with you to create a space that meets your specific needs and budget.",
     },
    

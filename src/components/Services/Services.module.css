@@ -6,9 +6,13 @@
   justify-content: center;
   position: relative;
 }
+@media screen and (max-width: 900px) {
+  .container {
+    height: 680px;
+  }
+}
 .gridContainer {
   display: grid;
-  width: 800px;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
   width: auto;
@@ -28,6 +32,12 @@
   justify-content: center;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
+}
+@media screen and (max-width: 900px) {
+  .gridItem {
+    min-width: 250px;
+    height: 250px;
+  }
 }
 .gridItem:nth-child(3) {
   grid-column: 1 / span 2;
@@ -51,21 +61,24 @@
   height: 100%;
   width: 100%;
   padding: 30px;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
-
 }
 .imageTextWrapper:hover {
-  background-color: rgba(0,0,0,0.7);
-
+  background-color: rgba(0, 0, 0, 0.7);
 }
-.imageTextWrapper:hover .itemText{
+.imageTextWrapper:hover .itemText {
   visibility: visible;
 }
 .itemHeader {
   color: var(--white);
   font-weight: 300;
   font-size: 32px;
+}
+@media screen and (max-width: 900px) {
+  .itemHeader {
+    font-size: 24px;
+  }
 }
 .itemText {
   color: var(--white);
@@ -74,4 +87,10 @@
   transition: all 0.2s;
 
   visibility: hidden;
+}
+
+@media screen and (max-width: 900px) {
+  .itemText {
+    font-size: 13px;
+  }
 }

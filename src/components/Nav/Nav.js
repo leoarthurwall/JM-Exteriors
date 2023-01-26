@@ -4,7 +4,7 @@ import styles from "./Nav.module.css";
 const Nav = () => {
   return (
     <nav className={styles.container}>
-      <h2 className={styles.logo}>J/M</h2>
+      <img src="images/logoOutline.png" alt="logo" className={styles.logo}></img>
       <ul className={styles.list}>
         <li className={styles.item}>Home</li>
         <li className={styles.item}>About</li>

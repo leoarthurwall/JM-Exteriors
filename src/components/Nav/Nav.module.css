@@ -11,7 +11,7 @@
   background-color: white;
 }
 .logo {
-  color: #212196;
+  color: #0D0F54;
   margin: 0;
   font-size: 40px;
 }
@@ -22,7 +22,7 @@
   flex-direction: row;
   list-style-type: none;
   gap: 25px;
-  color: #212196;
+  color: #0D0F54;
   padding: 0;
   height: fit-content;
   
@@ -34,14 +34,14 @@
     flex-direction: column;
     list-style-type: none;
     gap: 10px;
-    color: #212196;
+    color: #0D0F54;
 }
 .contact {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     gap: 10px;
-    color: #212196;
+    color: #0D0F54;
 }
 
 .navSpan {

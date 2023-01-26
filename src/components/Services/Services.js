@@ -24,7 +24,7 @@ const Services = () => {
       text: "We offer professional guttering services including installation, repair and maintenance. We use high-quality materials to ensure durability and effectiveness in preventing water damage.",
     },
     {
-      header: "Fasias & Soffits",
+      header: "Fascias & Soffits",
       bgImage: "images/fasia&soffit.jpeg",
       text: "We provide professional guttering, soffits and facias installation to keep your property protected from water damage. We use high-quality materials and ensure that your installation is done to the highest standard.",
     },

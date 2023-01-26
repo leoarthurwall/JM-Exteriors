@@ -6,6 +6,13 @@ body {
   background-color: #5885AF;
 
 }
+:root {
+  --primary: #0D0F54;
+  --secondary: #E1E7EA;
+  --dark: #171414;
+  --white: #ffffff;
+  --black: #000000;
+}
 * {
   box-sizing: border-box;
 }

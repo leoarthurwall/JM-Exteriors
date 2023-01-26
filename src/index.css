@@ -3,7 +3,7 @@ body {
   font-family: neue-haas-grotesk-display, Helvetica, Roboto, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #5885AF;
+  background-color: var(--primary);
 
 }
 :root {

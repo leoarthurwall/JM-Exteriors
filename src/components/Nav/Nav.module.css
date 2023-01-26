@@ -8,10 +8,10 @@
   z-index: 10;
 
   position: fixed;
-  background-color: white;
+  background-color: var(--white);
 }
 .logo {
-  color: #0D0F54;
+  color: var(--primary);
   margin: 0;
   font-size: 40px;
 }
@@ -22,7 +22,7 @@
   flex-direction: row;
   list-style-type: none;
   gap: 25px;
-  color: #0D0F54;
+  color: var(--primary);
   padding: 0;
   height: fit-content;
   
@@ -34,14 +34,14 @@
     flex-direction: column;
     list-style-type: none;
     gap: 10px;
-    color: #0D0F54;
+    color: var(--primary);
 }
 .contact {
     display: flex;
     flex-direction: row;
     list-style-type: none;
     gap: 10px;
-    color: #0D0F54;
+    color: var(--primary);
 }
 
 .navSpan {

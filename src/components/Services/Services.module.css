@@ -8,6 +8,7 @@
 }
 .gridContainer {
   display: grid;
+  width: 800px;
   grid-template-columns: 1fr 1fr;
   gap: 15px;
   width: auto;
@@ -18,7 +19,7 @@
 }
 
 .gridItem {
-  width: 400px;
+  min-width: 400px;
   height: 400px;
   background-color: var(--secondary);
   position: relative;
@@ -27,6 +28,9 @@
   justify-content: center;
   transition: all 0.2s ease-in-out;
   overflow: hidden;
+}
+.gridItem:nth-child(3) {
+  grid-column: 1 / span 2;
 }
 .image {
   height: 100%;

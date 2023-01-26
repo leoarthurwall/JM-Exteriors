@@ -18,13 +18,9 @@ const Services = () => {
       bgImage: "images/conservatory-2.jpeg",
       text: "Our conservatories are designed to provide an elegant and functional extension of your home. We offer a range of styles and materials to choose from, and our team will work with you to create a space that meets your specific needs and budget.",
     },
+   
     {
-      header: "Guttering",
-      bgImage: "images/guttering.jpeg",
-      text: "We offer professional guttering services including installation, repair and maintenance. We use high-quality materials to ensure durability and effectiveness in preventing water damage.",
-    },
-    {
-      header: "Fascias & Soffits",
+      header: "Guttering, Soffits & Facias",
       bgImage: "images/fasia&soffit.jpeg",
       text: "We provide professional guttering, soffits and facias installation to keep your property protected from water damage. We use high-quality materials and ensure that your installation is done to the highest standard.",
     },

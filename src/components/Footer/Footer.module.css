@@ -15,6 +15,8 @@
     margin: 0;
     color: var(--white);
     font-weight: 300;
+    height: 150px;
+    width: 150px;
   }
   .span {
     font-weight: 600;
@@ -27,6 +29,7 @@
     list-style-type: none;
     line-height: 25px;
     margin: 0;
+    padding-top: 10px;
   }
   .list {
     font-size: 18px;

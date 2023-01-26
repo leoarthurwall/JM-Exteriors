@@ -4,7 +4,7 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <h3 className={styles.logo}>JM Exteriors</h3>
+      <img src="images/logo.jpeg" alt="logo" className={styles.logo}></img>
       <div className={styles.right}>
         <ul className={styles.ul}>
           <li className={styles.list}>

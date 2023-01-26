@@ -9,7 +9,11 @@
   align-items: center;
   background-color: var(--white);
 }
-
+@media screen and (max-width: 900px) {
+  .container {
+    padding: 50px 75px 75px 75px;
+  }
+}
 .header {
   font-size: 32px;
   font-weight: 300;

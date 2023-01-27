@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Contact.module.css";
+import { AiFillPhone, AiFillMail } from "react-icons/ai";
 
 const Contact = () => {
   return (
@@ -14,6 +15,7 @@ const Contact = () => {
 
       <div className={styles.buttonWrapper}>
         <a href="tel:07946430774" className={styles.aText}>
+          <AiFillPhone />
           Make a call
         </a>
 
@@ -21,6 +23,7 @@ const Contact = () => {
           href="mailto:jakemayexteriors@gmail.com?subject=Enquiry for Jake May via Website"
           className={styles.aText}
         >
+          <AiFillMail />
           Send an Email
         </a>
       </div>

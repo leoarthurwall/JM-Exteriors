@@ -38,9 +38,12 @@
 .item {
   font-weight: 500;
   cursor: pointer;
+  transition: 0.3s;
+}
+.item:hover {
+  color: var(--grey)
 
 }
-
 .iconWrapper {
   display: flex;
   justify-content: center;

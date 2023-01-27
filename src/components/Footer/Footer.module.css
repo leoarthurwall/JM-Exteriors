@@ -54,6 +54,10 @@
 .list {
   font-size: 18px;
   font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
 }
 @media screen and (max-width: 550px) {
   .list {

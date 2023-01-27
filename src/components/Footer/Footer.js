@@ -1,5 +1,7 @@
 import React from "react";
 import styles from "./Footer.module.css";
+import { AiFillPhone, AiFillMail, AiFillClockCircle } from "react-icons/ai";
+import { ImLocation } from "react-icons/im";
 
 const Footer = () => {
   return (
@@ -7,18 +9,20 @@ const Footer = () => {
       <div className={styles.right}>
         <ul className={styles.ul}>
           <li className={styles.list}>
-            <span className={styles.span}>Phone: </span>07946430774
+            <AiFillPhone />
+            07946 430774
           </li>
           <li className={styles.list}>
-            <span className={styles.span}>Email:</span>{" "}
+            <AiFillMail />
             jakemayexteriors@gmail.com
           </li>
           <li className={styles.list}>
-            <span className={styles.span}>Address: </span>Isle of Wight
+            <ImLocation />
+            Isle of Wight
           </li>
           <li className={styles.list}>
-            <span className={styles.span}>Business Hours: </span>08:00-17:00,
-            Mon-Fri
+            <AiFillClockCircle />
+            08:00-17:00, Mon-Fri
           </li>
         </ul>
       </div>

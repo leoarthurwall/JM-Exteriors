@@ -17,6 +17,7 @@ const Contact = () => {
         are committed to providing you with the best service and quality
         workmanship.
       </p>
+      <a href="tel:07946430774">Call for a free consultation</a>
     </div>
   );
 };

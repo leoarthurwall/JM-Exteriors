@@ -10,6 +10,11 @@
   position: fixed;
   background-color: var(--white);
 }
+@media screen and (max-width: 550px) {
+  .container {
+    padding: 10px 30px;
+  }
+}
 .logo {
   color: var(--primary);
   margin: 0;

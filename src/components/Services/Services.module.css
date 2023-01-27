@@ -30,6 +30,7 @@
   .gridContainer {
     grid-template-columns: 1fr;
     width: 100%;
+    padding: 0px;
   }
 }
 .gridItem {
@@ -100,6 +101,11 @@
     font-size: 24px;
   }
 }
+@media screen and (max-width: 550px) {
+  .itemHeader {
+    font-size: 28px;
+  }
+}
 .itemText {
   color: var(--white);
   font-weight: 300;
@@ -112,5 +118,10 @@
 @media screen and (max-width: 900px) {
   .itemText {
     font-size: 13px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .itemText {
+    font-size: 14px;
   }
 }

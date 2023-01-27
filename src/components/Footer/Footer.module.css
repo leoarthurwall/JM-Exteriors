@@ -47,21 +47,19 @@
   padding-left: 0;
 }
 @media screen and (max-width: 550px) {
-    .ul {
-      text-align: center;
-    }
+  .ul {
+    text-align: center;
   }
+}
 .list {
   font-size: 18px;
   font-weight: 300;
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 7px;
 }
 @media screen and (max-width: 550px) {
   .list {
-    font-size: 13px;
-    line-height: 18px;
+    justify-content: center;
   }
 }

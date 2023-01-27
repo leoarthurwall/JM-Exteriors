@@ -31,11 +31,21 @@
   }
 }
 
+@media screen and (max-width: 550px) {
+  .title {
+    font-size: 42px;
+  }
+}
 .subHeading {
   color: var(--white);
   font-weight: 300;
   font-size: 26px;
   margin: 5px;
+}
+@media screen and (max-width: 550px) {
+  .subHeading {
+    font-size: 100%;
+  }
 }
 .islandText {
   color: var(--white);
@@ -43,4 +53,8 @@
   font-size: 24px;
   margin: 0px;
 }
-
+@media screen and (max-width: 550px) {
+  .islandText {
+    font-size: 100%;
+  }
+}

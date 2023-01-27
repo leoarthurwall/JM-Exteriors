@@ -1,12 +1,19 @@
 import React from "react";
+import { useState } from "react";
 import styles from "./Nav.module.css";
 import { useMediaQuery } from "react-responsive";
 import { HiOutlineMenu } from "react-icons/hi";
+import { GrClose } from "react-icons/gr";
 
 const Nav = () => {
+  const [isOpen, setIsOpen] = useState(false);
   const isMobile = useMediaQuery({
     query: "(max-width: 550px)",
   });
+
+  const handleMenuClick = () => {
+    setIsOpen(!isOpen);
+  };
 
   return (
     <nav className={styles.container}>
@@ -16,7 +23,11 @@ const Nav = () => {
         className={styles.logo}
       ></img>
       {isMobile ? (
-        <HiOutlineMenu size={40}/>
+        isOpen ? (
+          <GrClose size={32} onClick={handleMenuClick} />
+        ) : (
+          <HiOutlineMenu size={40} onClick={handleMenuClick} />
+        )
       ) : (
         <ul className={styles.list}>
           <li className={styles.item}>Home</li>

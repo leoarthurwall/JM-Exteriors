@@ -12,11 +12,22 @@ const Nav = ({ handleMenuClick, isOpen }) => {
 
   return (
     <nav className={styles.container}>
-      <img
-        src="images/logoOutline.png"
-        alt="logo"
-        className={styles.logo}
-      ></img>
+      {" "}
+      <Link
+        className="nav-link"
+        activeClass="active"
+        to="homeSection"
+        spy={true}
+        smooth={true}
+        offset={0}
+        duration={500}
+      >
+        <img
+          src="images/logoOutline.png"
+          alt="logo"
+          className={styles.logo}
+        ></img>
+      </Link>
       {isMobile ? (
         isOpen ? (
           <span className={styles.iconWrapper}>

@@ -6,16 +6,20 @@ import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
 import Services from "./components/Services/Services";
 import { useState } from "react";
+import Menu from "./components/Menu/Menu";
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); //State of menu - open or closed
 
+  //toggles menu between open and closed
   const handleMenuClick = () => {
     setIsOpen(!isOpen);
   };
+
   return (
     <div className="App">
       <Nav handleMenuClick={handleMenuClick} isOpen={isOpen} />
+      <Menu isOpen={isOpen}/>
       <Home />
       <About />
       <Services />

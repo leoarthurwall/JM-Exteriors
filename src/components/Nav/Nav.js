@@ -1,9 +1,8 @@
 import React from "react";
-import { useState } from "react";
 import styles from "./Nav.module.css";
 import { useMediaQuery } from "react-responsive";
 import { HiOutlineMenu } from "react-icons/hi";
-import { GrClose } from "react-icons/gr";
+import { AiOutlineClose } from "react-icons/ai";
 
 const Nav = ({ handleMenuClick, isOpen }) => {
   const isMobile = useMediaQuery({
@@ -19,9 +18,13 @@ const Nav = ({ handleMenuClick, isOpen }) => {
       ></img>
       {isMobile ? (
         isOpen ? (
-          <GrClose size={32} onClick={handleMenuClick} />
+          <span className={styles.iconWrapper}>
+            <AiOutlineClose size={40} stylr onClick={handleMenuClick} />
+          </span>
         ) : (
-          <HiOutlineMenu size={40} onClick={handleMenuClick} />
+          <span className={styles.iconWrapper}>
+            <HiOutlineMenu size={40} onClick={handleMenuClick} />
+          </span>
         )
       ) : (
         <ul className={styles.list}>

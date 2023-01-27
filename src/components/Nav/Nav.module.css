@@ -53,3 +53,10 @@
 .navSpan {
   font-weight: 700;
 }
+
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+}

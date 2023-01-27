@@ -41,6 +41,12 @@
   align-items: center;
   margin: 30px 0;
 }
+@media screen and (max-width: 550px) {
+  .buttonWrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
 
 .aText {
   background: white;

@@ -22,7 +22,7 @@ const Footer = () => {
           </li>
           <li className={styles.list}>
             <AiFillClockCircle />
-            08:00-17:00, Mon-Fri
+            08:00 - 17:00, Mon - Fri
           </li>
         </ul>
       </div>

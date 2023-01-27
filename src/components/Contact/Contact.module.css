@@ -14,6 +14,11 @@
     padding: 50px 75px 75px 75px;
   }
 }
+@media screen and (max-width: 550px) {
+  .container {
+    padding: 50px 30px 75px 30px;
+  }
+}
 .header {
   font-size: 32px;
   font-weight: 300;

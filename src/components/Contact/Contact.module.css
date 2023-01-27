@@ -34,12 +34,32 @@
   list-style-type: none;
 }
 
-.button {
+.buttonWrapper {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.aText {
   background: white;
-	color: var(--primary);
-	border: 2px solid var(--primary);
-	padding: 10px;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+  border: 2px solid var(--primary);
+  padding: 10px;
+  font: inherit;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  color: var(--primary);
+  transition: 0.2s;
+  height: auto;
+  width: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aText:hover {
+  color: var(--grey);
 }

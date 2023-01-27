@@ -4,7 +4,6 @@ import styles from "./Footer.module.css";
 const Footer = () => {
   return (
     <div className={styles.container}>
-      <img src="images/logo.jpeg" alt="logo" className={styles.logo}></img>
       <div className={styles.right}>
         <ul className={styles.ul}>
           <li className={styles.list}>
@@ -23,6 +22,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
+      <img src="images/logo.jpeg" alt="logo" className={styles.logo}></img>
     </div>
   );
 };

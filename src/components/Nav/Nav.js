@@ -3,6 +3,7 @@ import styles from "./Nav.module.css";
 import { useMediaQuery } from "react-responsive";
 import { HiOutlineMenu } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-scroll";
 
 const Nav = ({ handleMenuClick, isOpen }) => {
   const isMobile = useMediaQuery({
@@ -11,11 +12,11 @@ const Nav = ({ handleMenuClick, isOpen }) => {
 
   return (
     <nav className={styles.container}>
-        <img
-          src="images/logoOutline.png"
-          alt="logo"
-          className={styles.logo}
-        ></img>
+      <img
+        src="images/logoOutline.png"
+        alt="logo"
+        className={styles.logo}
+      ></img>
       {isMobile ? (
         isOpen ? (
           <span className={styles.iconWrapper}>
@@ -28,10 +29,59 @@ const Nav = ({ handleMenuClick, isOpen }) => {
         )
       ) : (
         <ul className={styles.list}>
-          <li className={styles.item}>Home</li>
-          <li className={styles.item}>About</li>
-          <li className={styles.item}>Services</li>
-          <li className={styles.item}>Contact</li>
+          <li className={styles.item}>
+            <Link
+              className="nav-link"
+              activeClass="active"
+              to="homeSection"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Home
+            </Link>
+          </li>
+          <li className={styles.item}>
+            <Link
+              className="nav-link"
+              activeClass="active"
+              to="aboutSection"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              About
+            </Link>
+          </li>
+          <li className={styles.item}>
+            {" "}
+            <Link
+              className="nav-link"
+              activeClass="active"
+              to="servicesSection"
+              spy={true}
+              smooth={true}
+              offset={-220}
+              duration={500}
+            >
+              Services
+            </Link>
+          </li>
+          <li className={styles.item}>
+            <Link
+              className="nav-link"
+              activeClass="active"
+              to="contactSection"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       )}
     </nav>

@@ -32,7 +32,7 @@ const Services = () => {
   ];
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="servicesSection">
       <div className={styles.gridContainer}>
         {serviceImage.map((service, index) => {
           return (

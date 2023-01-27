@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 
 const About = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="aboutSection">
       <h2 className={styles.header}>About us</h2>
       <p className={styles.para}>
         Welcome to JM Exteriors, your local experts in window fitting on the

@@ -3,7 +3,7 @@ import styles from "./Home.module.css";
 
 const Home = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="homeSection">
       <div className={styles.headerWrapper}>
         <h1 className={styles.title}> JM Exteriors</h1>
         <h3 className={styles.subHeading}>Glazier & Exertior Professional</h3>

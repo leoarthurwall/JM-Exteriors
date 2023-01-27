@@ -4,7 +4,7 @@ import { AiFillPhone, AiFillMail } from "react-icons/ai";
 
 const Contact = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="contactSection">
       <h2 className={styles.header}>Contact us</h2>
       <p className={styles.para}>
         Thank you for considering JM Exteriors for your window fitting needs. If

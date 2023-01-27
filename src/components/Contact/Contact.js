@@ -17,7 +17,10 @@ const Contact = () => {
           Make a call
         </a>
 
-        <a href="mailto:jakemayexteriors@gmail.com" className={styles.aText}>
+        <a
+          href="mailto:jakemayexteriors@gmail.com?subject=Enquiry for Jake May via Website"
+          className={styles.aText}
+        >
           Send an Email
         </a>
       </div>

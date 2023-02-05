@@ -25,6 +25,7 @@
   font-size: 32px;
   font-weight: 300;
   color: var(--primary);
+  padding-top: 20px;
 }
 
 .para {
@@ -32,4 +33,11 @@
   font-weight: 300;
   color: var(--grey);
   text-align: center;
+}
+
+.headerServices {
+  font-size: 32px;
+  font-weight: 300;
+  color: var(--primary);
+  padding-top: 85px;
 }

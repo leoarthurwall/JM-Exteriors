@@ -21,7 +21,7 @@ const About = () => {
         professional. I am dedicated to providing our customers
         with the highest level of service and quality workmanship.
       </p>
-      <h2 className={styles.header}>Services</h2>
+      <h2 className={styles.headerServices} id="servicesSection">Services</h2>
     </div>
   );
 };

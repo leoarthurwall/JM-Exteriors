@@ -18,7 +18,7 @@ const Services = () => {
       bgImage: "images/conservatory.jpeg",
       text: "Our conservatories are designed to provide an elegant and functional extension of your home. We offer a range of styles and materials to choose from, and our team will work with you to create a space that meets your specific needs and budget.",
     },
-   
+
     {
       header: "Guttering, Soffits & Facias",
       bgImage: "images/fasia&soffit.jpeg",
@@ -32,7 +32,7 @@ const Services = () => {
   ];
 
   return (
-    <section className={styles.container} id="servicesSection">
+    <section className={styles.container}>
       <div className={styles.gridContainer}>
         {serviceImage.map((service, index) => {
           return (

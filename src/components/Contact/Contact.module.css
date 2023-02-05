@@ -23,6 +23,7 @@
   font-size: 32px;
   font-weight: 300;
   color: var(--primary);
+  padding-top: 20px;
 }
 
 .para {

@@ -44,3 +44,16 @@
   padding: 0;
   height: fit-content;
 }
+
+.item {
+  transition: 0.2s;
+
+}
+.item:hover {
+  color: var(--grey);
+  scale: 1.05;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}

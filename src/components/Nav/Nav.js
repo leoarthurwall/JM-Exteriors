@@ -12,21 +12,27 @@ const Nav = ({ handleMenuClick, isOpen }) => {
 
   return (
     <nav className={styles.container}>
+
       {" "}
       {/* <Link
         className="nav-link"
         activeClass="active"
-        to="homeSection"
+        href="./homeSection"
+        // to="homeSection"
         spy={true}
         smooth={true}
         offset={0}
         duration={500}
       > */}
+      <a         href="./homeSection"
+>
+
         <img
           src="images/logoOutline.png"
           alt="logo"
           className={styles.logo}
         ></img>
+      </a>
       {/* </Link> */}
       {isMobile ? (
         isOpen ? (
@@ -39,7 +45,7 @@ const Nav = ({ handleMenuClick, isOpen }) => {
           </span>
         )
       ) : (
-        {/* <ul className={styles.list}>
+        <ul className={styles.list}>
           <li className={styles.item}>
             <Link
               className="nav-link"
@@ -93,7 +99,7 @@ const Nav = ({ handleMenuClick, isOpen }) => {
               Contact
             </Link>
           </li>
-        </ul> */}
+        </ul>
       )}
     </nav>
   );

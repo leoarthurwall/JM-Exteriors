@@ -13,7 +13,7 @@ const Nav = ({ handleMenuClick, isOpen }) => {
   return (
     <nav className={styles.container}>
       {" "}
-      <Link
+      {/* <Link
         className="nav-link"
         activeClass="active"
         to="homeSection"
@@ -21,13 +21,13 @@ const Nav = ({ handleMenuClick, isOpen }) => {
         smooth={true}
         offset={0}
         duration={500}
-      >
+      > */}
         <img
           src="images/logoOutline.png"
           alt="logo"
           className={styles.logo}
         ></img>
-      </Link>
+      {/* </Link> */}
       {isMobile ? (
         isOpen ? (
           <span className={styles.iconWrapper}>
@@ -39,7 +39,7 @@ const Nav = ({ handleMenuClick, isOpen }) => {
           </span>
         )
       ) : (
-        <ul className={styles.list}>
+        {/* <ul className={styles.list}>
           <li className={styles.item}>
             <Link
               className="nav-link"
@@ -93,7 +93,7 @@ const Nav = ({ handleMenuClick, isOpen }) => {
               Contact
             </Link>
           </li>
-        </ul>
+        </ul> */}
       )}
     </nav>
   );

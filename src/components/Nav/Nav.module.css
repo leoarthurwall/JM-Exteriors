@@ -24,29 +24,10 @@
   cursor: pointer;
 }
 
-.list {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  list-style-type: none;
-  gap: 25px;
-  color: var(--primary);
-  padding: 0;
-  height: fit-content;
-}
-
-.item {
-  font-weight: 500;
-  cursor: pointer;
-  transition: 0.3s;
-}
-.item:hover {
-  color: var(--grey);
-}
 .iconWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   color: var(--primary);
+  cursor: pointer;
 }
-

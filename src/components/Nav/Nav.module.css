@@ -50,3 +50,7 @@
   align-items: center;
   color: var(--primary);
 }
+a {
+  scroll-behavior: smooth;
+
+}

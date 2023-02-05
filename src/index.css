@@ -4,11 +4,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--primary);
-
 }
 :root {
-  --primary: #0D0F54;
-  --secondary: #E1E7EA;
+  --primary: #0d0f54;
+  --secondary: #e1e7ea;
   --dark: #171414;
   --white: #ffffff;
   --black: #000000;
@@ -16,6 +15,9 @@ body {
 }
 * {
   box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
 }
 
 code {

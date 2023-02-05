@@ -24,7 +24,7 @@ const Nav = ({ handleMenuClick, isOpen }) => {
         offset={0}
         duration={500}
       > */}
-      <a         href="./homeSection"
+      <a         href="#homeSection"
 >
 
         <img

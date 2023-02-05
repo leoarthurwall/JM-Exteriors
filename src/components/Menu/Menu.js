@@ -1,67 +1,29 @@
 import React from "react";
 import styles from "./Menu.module.css";
-import { Link } from "react-scroll";
 
 const Menu = ({ isOpen, handleMenuClick }) => {
   return (
     <div className={isOpen ? styles.containerOpen : styles.containerClosed}>
       <ul className={styles.list}>
         <li className={styles.item}>
-          <Link
-            onClick={handleMenuClick}
-            className="nav-link"
-            activeClass="active"
-            to="homeSection"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={0}
-          >
+          <a href="#homeSection" onClick={handleMenuClick}>
             Home
-          </Link>
+          </a>
         </li>
         <li className={styles.item}>
-          <Link
-            onClick={handleMenuClick}
-            className="nav-link"
-            activeClass="active"
-            to="aboutSection"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={0}
-          >
+          <a href="#aboutSection" onClick={handleMenuClick}>
             About
-          </Link>
+          </a>
         </li>
         <li className={styles.item}>
-          {" "}
-          <Link
-            onClick={handleMenuClick}
-            className="nav-link"
-            activeClass="active"
-            to="servicesSection"
-            spy={true}
-            smooth={true}
-            offset={-220}
-            duration={0}
-          >
+          <a href="#servicesSection" onClick={handleMenuClick}>
             Services
-          </Link>
+          </a>
         </li>
         <li className={styles.item}>
-          <Link
-            onClick={handleMenuClick}
-            className="nav-link"
-            activeClass="active"
-            to="contactSection"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={0}
-          >
+          <a href="#contactSection" onClick={handleMenuClick}>
             Contact
-          </Link>
+          </a>
         </li>
       </ul>
     </div>

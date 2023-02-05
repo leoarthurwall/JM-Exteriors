@@ -18,8 +18,12 @@ function App() {
 
   return (
     <div className="App">
-      <Nav handleMenuClick={handleMenuClick} isOpen={isOpen}  />
-      <Menu isOpen={isOpen} handleMenuClick={handleMenuClick}/>
+      <Nav
+        handleMenuClick={handleMenuClick}
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+      />
+      <Menu isOpen={isOpen} handleMenuClick={handleMenuClick} />
       <Home />
       <About />
       <Services />

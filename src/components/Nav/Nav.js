@@ -3,16 +3,15 @@ import styles from "./Nav.module.css";
 import { useMediaQuery } from "react-responsive";
 import { HiOutlineMenu } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
-import { Link } from "react-scroll";
 
-const Nav = ({ handleMenuClick, isOpen }) => {
+const Nav = ({ handleMenuClick, isOpen  }) => {
   const isMobile = useMediaQuery({
     query: "(max-width: 550px)",
   });
 
   return (
     <nav className={styles.container}>
-      <a href="#homeSection">
+      <a href="#homeSection" onClick={isOpen && handleMenuClick}>
         <img
           src="images/logoOutline.png"
           alt="logo"

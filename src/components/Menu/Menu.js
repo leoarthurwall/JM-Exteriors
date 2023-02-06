@@ -6,22 +6,22 @@ const Menu = ({ isOpen, handleMenuClick }) => {
     <div className={isOpen ? styles.containerOpen : styles.containerClosed}>
       <ul className={styles.list}>
         <li className={styles.item}>
-          <a href="#homeSection" onClick={handleMenuClick}>
+          <a href="#home" onClick={handleMenuClick}>
             Home
           </a>
         </li>
         <li className={styles.item}>
-          <a href="#aboutSection" onClick={handleMenuClick}>
+          <a href="#about" onClick={handleMenuClick}>
             About
           </a>
         </li>
         <li className={styles.item}>
-          <a href="#servicesSection" onClick={handleMenuClick}>
+          <a href="#services" onClick={handleMenuClick}>
             Services
           </a>
         </li>
         <li className={styles.item}>
-          <a href="#contactSection" onClick={handleMenuClick}>
+          <a href="#contact" onClick={handleMenuClick}>
             Contact
           </a>
         </li>

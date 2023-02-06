@@ -20,9 +20,9 @@ const Services = () => {
     },
 
     {
-      header: "Guttering, Soffits & Facias",
+      header: "Guttering, Soffits & Fascias",
       bgImage: "images/fasia&soffit.jpeg",
-      text: "We provide professional guttering, soffits and facias installation to keep your property protected from water damage. We use high-quality materials and ensure that your installation is done to the highest standard.",
+      text: "We provide professional guttering, soffit and fascia installation to keep your property protected from water damage. We use high-quality materials and ensure that your installation is done to the highest standard.",
     },
     {
       header: "Cladding",

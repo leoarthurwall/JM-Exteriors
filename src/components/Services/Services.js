@@ -11,7 +11,7 @@ const Services = () => {
     {
       header: "Doors",
       bgImage: "images/door.jpeg",
-      text: "We offer a variety of door styles, including French, sliding, and bi-folding. We work with the best manufacturers to provide durable, secure, and energy-efficient doors.",
+      text: "We offer a variety of door styles, including composite, French, sliding, and bi-folding. We work with the best manufacturers to provide durable, secure, and energy-efficient doors.",
     },
     {
       header: "Conservatories",
@@ -22,12 +22,12 @@ const Services = () => {
     {
       header: "Guttering, Soffits & Fascias",
       bgImage: "images/fasia&soffit.jpeg",
-      text: "We provide professional guttering, soffit and fascia installation to keep your property protected from water damage. We use high-quality materials and ensure that your installation is done to the highest standard.",
+      text: "We provide professional guttering, soffit and fascia installation to keep your property protected from water damage. With a wide selection of colours to choose from, we use high-quality materials and ensure that your installation is done to the highest standard.",
     },
     {
       header: "Cladding",
       bgImage: "images/cladding.jpeg",
-      text: "Our cladding services are a great way to improve the appearance and energy efficiency of your home. We offer a variety of materials, including PVC, wood, and aluminum.",
+      text: "Our cladding services are a great way to improve the appearance and energy efficiency of your home. We offer a variety of styles and materials, including PVC, wood, and aluminum.",
     },
   ];
 

@@ -8,7 +8,7 @@ const Nav = ({ handleMenuClick, isOpen }) => {
 
   return (
     <nav className={styles.container}>
-      <a href="#homeSection" onClick={isOpen && handleMenuClick}>
+      <a href="#home" onClick={isOpen && handleMenuClick}>
         <img
           src="images/logoOutline.png"
           alt="logo"
